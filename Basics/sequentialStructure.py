@@ -10,15 +10,12 @@ print(bool('abc'))
 print(bool(0))
 print(bool(-2))
 
-monthlySalary = input("Digite o valor do Salário Mensal: ")
-monthlySpent = input("Digite o valor do gasto mensal: ")
-
-monthlySpent = float(monthlySpent)
-monthlySalary = float(monthlySalary)
+monthlySalary = float(input("Digite o valor do Salário Mensal: "))
+monthlySpent = float(input("Digite o valor do gasto mensal: "))
 
 totalSalary = monthlySalary*12
 totalSpent = monthlySpent*12
 
 amoutSaved = totalSalary - totalSpent
 
-print('O montante que você pode economizar ao fim de um ano é R$ ', amoutSaved)
+print('O montante que você pode economizar ao fim de um ano é R$', amoutSaved)
