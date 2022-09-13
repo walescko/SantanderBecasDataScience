@@ -16,6 +16,6 @@ monthlySpent = float(input("Digite o valor do gasto mensal: "))
 totalSalary = monthlySalary*12
 totalSpent = monthlySpent*12
 
-amoutSaved = totalSalary - totalSpent
+amountSaved = totalSalary - totalSpent
 
-print('O montante que você pode economizar ao fim de um ano é R$', amoutSaved)
+print('O montante que você pode economizar ao fim de um ano é R$', amountSaved)
