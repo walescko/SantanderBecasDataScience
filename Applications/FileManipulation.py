@@ -26,3 +26,6 @@ with open('textFile', 'w') as file:
 
 with open('textFile', 'r') as file:
     print(file.read(), end='')
+
+with open('textFile', 'a') as file:
+    file.write('Essa é a terceira linha add depois\n')
